@@ -1,3 +1,152 @@
 <html>
-<h1>Hello Worlds</h1>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="navbar navbar-default navbar-fixed-top" role="banner" style="top: 0px">
+      <div class="container-fluid">
+        <button type="button" class="navbar-toggle collapsed" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brewtiful</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="#">The App</a>
+            </li>
+            <li class="hidden-xs">
+              <a href="#">Beer News</a>
+            </li>
+            <li>
+              <a href="#">Top Lists</a>
+            </li>
+            <li>
+              <a href="#">Beer Styles</a>
+            </li>
+            <li class="hidden-xs">
+              <a href="#">Our Users</a>
+            </li>
+            <li>
+              <a href="#">Sellers</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" aria-hashpop="true" aria-expanded="false">More <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Beer Forum</a>
+                </li>
+                <li>
+                  <a href="#">Countries</a>
+                </li>
+                <li>
+                  <a href="#">Breweries</a>
+                </li>
+                <li>
+                  <a href="#">Beers</a>
+                </li>
+                <li>
+                  <a href="#">Regions</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">Search <span class="glyphicon glyphicon-search"></span></a>
+            </li>
+            <li class="session-buttons hidden-xs" id="btn-log-in">
+              <a href="#">Log in</a>
+            </li>
+            <li class="btn-red">
+              <a href="#" class="red-link">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="front-page-section front-page-header text-sm-center promo-hero-unit">
+      <div class="backimage">
+        <div class="container">
+          <div class="col-sm-8">
+            <h1>Drink Less, Drink Better!</h1>
+            <div class="app-store-links">
+              <a href="#" class="btn-apple-store text-hide">Apple Store</a>
+              <a href="#" class="btn-google-store text-hide">Google Play</a>
+              <a href="#" class="btn-windows-store text-hide">Windows Phone Store</a>
+            </div>
+          </div>
+          <div class="col-xs-4 ">
+            <img alt src="https://assets.vivino.com/assets/app-pages/iphone-app-40c1aa1b18867ff667fa179011c52ccd.png">
+            <p class="text-center bold text-mini"><span>Learn More About</span><a href="#"> The Brewtiful App</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="front-page-section front-page-section-grey steps text-sm-center">
+      <div class="container">
+        <div class="col-md-3">
+          <img class="teaser-image" alt src="https://assets.vivino.com/assets/frontpage/bubble_1-970ec8c731fc8a1ce44f764e5ba13c61.png"><span class="bold text-mini text-block">Take a Photo of Any Beer Label</span></img>
+        </div>
+        <div class="col-md-3">
+          <img class="teaser-image" alt src="https://assets.vivino.com/assets/frontpage/bubble_2-411be86896163b2b5f5a3dc1327e0d3a.png"><span class="bold text-mini text-block">Get Reviews, Rankings & Pricing</span></img>
+        </div>
+        <div class="col-md-3">
+          <img class="teaser-image" alt src="https://assets.vivino.com/assets/frontpage/bubble_3-7a54ddf621243cf29664497b200d4f10.png"><span class="bold text-mini text-block">Add Your Own Reviews & Ratings</span></img>
+        </div>
+      </div>
+    </section>
+    <section class="front-page-section front-page-articles">
+      <div class="container">
+        <h4 class="heavy separator-hard header-medium">New on Brewtiful</h4>
+        <div class="row">
+          <div clas="article large-article col-sm-6">
+            <div class="article-template">
+              <a href="https://www.vivino.com/wine-news/cabernet-sauvignon-the--worlds-most-popular-red-wine">
+                <div class="teaser-image" style="background-image: url('https://images.vivino.com/web/cms/comfy/cms/files/990/files/original/aced38b2e47d1370d23bbfc4c54ff9cd2680f574-kingcab468x276.jpg')"></div></a>
+              <span class="article-type text-block text-mini bold">NEWS</span>
+              <a class="article-link link-muted text-block" href="https://www.vivino.com/wine-news/cabernet-sauvignon--the-worlds-most-popular-red-wine">
+                <h3 class="header-small bold">Cabernet Sauvignon: The World's Most Popular Red Wine</h3>
+              </a>
+              <p>If Chardonnay is the queen of wine grapes, then Cabernet Sauvignon is the undisputed king.</p>
+            </div>
+            <div class="rightside-news">
+              <div class="article col-md-3 col-sm-6 col-xs-12 odd">
+                <div class="article-template">
+                  <a href="https://www.vivino.com/wine-news/the-fortuitous-accident-that-got-america-drinking-pink">
+                    <div class="teaser-image" style="background-image: url('https://images.vivino.com/web/cms/comfy/cms/files/987/files/original/2ccf653d47f0ab2863a7fbbc689bc037c2257b95-whitezin468x276.jpg');"></div>
+                  </a>
+                  <span class="article-type text-block text-mini bold">NEWS</span>
+                  <a class="article-link link-muted text-block" href="background-image: url('https://www.vivino.com/wine-news/the-fortuitous-accident-that-got-america-drinking-pink');"><h3 class="header-small bold">The Fortuitous Accident That Got America Drinking Pink</h3></a>
+                  <p>Sutter Home took an accident and made it America’s most popular wine.</p>
+                </div>
+              </div>
+              <div class="article col-md-3 col-sm-6 col-xs-12 odd">
+                <div class="article-template">
+                  <a href="https://www.vivino.com/wine-news/wine-trends-you-need-to-know-now">
+                    <div class="teaser-image" style="background-image: url('https://images.vivino.com/web/cms/comfy/cms/files/978/files/original/d01c7ffb96c979b631b070bca47723b014466807-468x276.jpg');"></div>
+                  </a>
+                  <span class="article-type text-block text-mini bold">NEWS</span>
+                  <a class="article-link link-muted text-block" href="https://www.vivino.com/wine-news/wine-trends-you-need-to-know-now"><h3 class="header-small bold">Wine Trends You Need To Know Now</h3></a>
+                  <p>Here's the scoop on what wine trends to be on the lookout for.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
 </html>
