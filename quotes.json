@@ -1,21 +1,21 @@
 var quotes = {
-1:{
+"One":{
 	"phrase": "Life is tough, my darling, but so are you.",
 	"author": "Stepanie Bennett Henry"
 },
-2:{
+"Two":{
 	"phrase": "To live a creative life, we must lose our fear of being wrong",
 	"author": "Joseph Chilton Pearce"
 },
-3:{
+"Three":{
 	"phrase": "Doubts kills more dreams than failure ever will",
 	"author": "Karim Seddiki"
 },
-4:{
+"Four":{
 	"phrase": "It does not matter how slowly you go as long as you do not stop",
 	"author": "Confusius"
 },
-5:{
+"Five":{
 	"phrase": "If you dont go after what you want, you'll never have it. If you don't ask, the answer is always no. If you don't sleep forward, you're always in the same place.",
 	"author": "Nora Roberts"
 }
